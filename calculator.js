@@ -47,7 +47,11 @@ $(function () {
             .append($('<input />').addClass('btn').addClass('btn--done').prop('type', 'button').val('='));
     };
 
-    Calc.prototype._bindEvents = function () {
+  /**
+   * Click events
+   * @private
+   */
+  Calc.prototype._bindEvents = function () {
         var textInput = this._container.find(".action");
 
         this._container.find('.btn--val').bind('click', function () {

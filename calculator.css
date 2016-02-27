@@ -1,17 +1,17 @@
 .calc {
     width: 400px;
-    border: 1px solid #000;
     padding: 20px 20px 20px 16px;
+    border: 1px solid #000;
     background: #000000;
     font-size: 0;
     border-radius: 15px;
 }
 
 .calc input[type="text"] {
-    text-align: center;
     width: 397px;
     height: 55px;
     font-size: 35px;
+    text-align: center;
     outline: none;
     border-radius: 5px;
     border: 1px solid #000;
@@ -21,11 +21,11 @@
     display: inline-block;
     vertical-align: top;
     width: 31%;
+    margin: 10px 14px 0 0;
     font-size: 30px;
     outline: none;
     border: 1px solid #000;
     background: #fff;
-    margin: 10px 14px 0 0;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -43,9 +43,9 @@
 }
 
 .calc .btn.btn--done {
-    background: rgba(0, 249, 0, 0.5);
     width: 65%;
     margin-right: 0;
+    background: rgba(0, 249, 0, 0.5);
 }
 
 .calc .btn.btn--done:hover {
